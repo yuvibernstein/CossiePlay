@@ -4,6 +4,24 @@ body {
 	background-color: #002B8F;
 }
 
+h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: italic;
+	font-size: 50px;
+	text-align: left;
+	margin-left: 40px;
+}
+
+h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	font-size: xx-large;
+}
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
 #container {
 	width: 980px;
 	margin: 10px auto;
@@ -41,14 +59,12 @@ body {
 	padding-right: 10px;
 }
 
-
-h1 {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-style: italic;
-	font-size: 40px;
-	text-align: left;
-	margin-left: 40px;
-}
+a:visited { color: #7C0000; }
+a:hover { color: #C7C7C7;
+          text-decoration: none; }  
+a:link { text-decoration: none; }
+a:active {
+	color: aqua; }
 
 #leftSignUpSection {
 	width: 260px;
@@ -57,29 +73,15 @@ h1 {
 	border-top: medium solid #000000;
 	text-align: left;
 	padding-left: 40px;
-	height: 600px;
+	height: 725px;
 	border-top-right-radius: 40px;
 	border-top-left-radius: 40px;
 	background-color: #ADC5FF;
 	border-left: medium solid #000000;
+	padding-top: 15px;
 }
+
 #leftSignUpSection ul li {
-	list-style-type: none;
-}
-#rightPartyInfoSection {
-	padding-left: 35px;
-	padding-right: 25px;
-	width: 260px;
-	border-left: medium solid #000000;
-	border-top: medium solid #000000;
-	float: right;
-	height: 600px;
-	border-top-left-radius: 40px;
-	border-top-right-radius: 40px;
-	background-color: #ADC5FF;
-	border-right: medium solid #000000;
-}
-#rightPartyInfoSection ul li {
 	list-style-type: none;
 }
 
@@ -88,25 +90,40 @@ h1 {
 	border-left: medium solid #000000;
 	border-top: medium solid #000000;
 	border-right: medium solid #000000;
-	height: 600px;
+	height: 725px;
 	border-top-left-radius: 40px;
 	border-top-right-radius: 40px;
 	background-color: #ADC5FF;
 	width: 300px;
 	margin-left: 322px;
+	padding-top: 15px;
 }
 
 #middleSectionImg {
 	padding-left: 30px;
-
+	margin-top: 15px;
 }
+
 #middleSection h3 {
 	text-align: center;
-
 }
 
-#signUpSection ul {
-	text-align: left;
+#rightPartyInfoSection {
+	padding-left: 35px;
+	padding-right: 25px;
+	width: 260px;
+	border-left: medium solid #000000;
+	border-top: medium solid #000000;
+	float: right;
+	height: 725px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	background-color: #ADC5FF;
+	border-right: medium solid #000000;
+	padding-top: 15px;
+}
+
+#rightPartyInfoSection ul li {
 	list-style-type: none;
 }
 
@@ -115,14 +132,6 @@ h1 {
 	display: inline;
 }
 
-#navigationBottom {
-	clear: both;
-}
-
-#navigationBottom ul {
-	display: inline;
-	
-}
 
 #aboutUsNav {
 	float: left;
@@ -136,19 +145,8 @@ h1 {
 
 #aboutUsBox {
 	margin-left: 340px;
-
 }
 	
-a:visited { color: #7C0000; }
-
-a:hover { color: #C7C7C7;
-          text-decoration: none; }
-		  
-a:link { text-decoration: none; }
-
-a:active {
-	color: aqua; }
-
 table {
 	font-size: x-large;
 	letter-spacing: 1px;
@@ -167,39 +165,33 @@ table {
 	margin-left: 340px;
 }
 
-#signUpPage {
-	margin-left: 340px;
+#announcementsImg {
+	padding-left: 25px;
+
+}
+#announcements ul {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: large;
 }
 
-#costumeTableBox {
-	text-align: left;
+#partyInformation {
+	margin-left: 340px;
 }
 
 #costumePage {
 	margin-left: 340px;
 }
-#costumesLeftPartySection {
-	width: 260px;
-	float: left;
-	border: medium solid #000000;
-	text-align: left;
-	padding-left: 40px;
-	height: 600px;
-	border-radius: 40px;
-	background-color: #ADC5FF;
-}
-#costumesLeftPartySection ul li {
-	list-style-type: none;
-}
+
 #aboutUsLeftPartySection {
 	width: 260px;
 	float: left;
 	border: medium solid #000000;
 	text-align: left;
 	padding-left: 40px;
-	height: 600px;
+	height: 675px;
 	border-radius: 40px;
 	background-color: #ADC5FF;
+	padding-top: 15px;
 
 }
 #aboutUsLeftPartySection ul li {
@@ -208,6 +200,7 @@ table {
 }
 #leftSignUpSection img {
 	margin-left: -15px;
+	margin-top: 10px;
 }
 #aboutUsLeftPartySection img  {
 	margin-left: -15px;
@@ -215,10 +208,15 @@ table {
 #costumesLeftPartySection img {
 	margin-left: -15px;
 }
-p {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-}
+
 
 img {
 	border-radius: 20px;
+}
+#costumesImg {
+	margin-left: 425px;
+	padding-top: 15px;
+}
+#whatIsBox img {
+	float: right;
 }
