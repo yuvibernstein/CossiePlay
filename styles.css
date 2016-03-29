@@ -5,126 +5,220 @@ body {
 }
 
 #container {
-	width: 900px;
+	width: 980px;
 	margin: 10px auto;
-	background-color: #fff;
+	background-color: #DFE8FF;
 	padding: 0 40px;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	border: thick solid #000000;
 }
 
 #topBox {
 	width: 900px;
 	margin: 20px auto;
 	padding-top: 20px;        
-			 }
+}
 
 		 
 #navigationTop {
 	text-align: center;
 	border-bottom: medium solid #000000;
 	border-top-color: #03E0F3;
-	}
+}
 
 
 #navigationTop ul li {
 	display: inline;
 	margin-top: 0;
-	margin-right: 35px;
+	margin-right: 20px;
 	margin-left: 0;
 	margin-bottom: 50px;
 	border-right: thin groove #000000;
 	border-left: thin groove #000000;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
 	letter-spacing: 1px;
+	padding-right: 10px;
 }
 
 
 h1 {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-style: italic;
 	font-size: 40px;
 	text-align: left;
+	margin-left: 40px;
 }
 
-#leftPartySection {
-	
+#leftSignUpSection {
 	width: 260px;
-	height: 800px;
 	float: left;
 	border-right: medium solid #000000;
 	border-top: medium solid #000000;
 	text-align: left;
-	
+	padding-left: 40px;
+	height: 600px;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	background-color: #ADC5FF;
+	border-left: medium solid #000000;
 }
-
-#rightSignUpSection {
-	padding-left: 10px;
-	padding-right: 10px;
-	height: 800px;
+#leftSignUpSection ul li {
+	list-style-type: none;
+}
+#rightPartyInfoSection {
+	padding-left: 35px;
+	padding-right: 25px;
 	width: 260px;
 	border-left: medium solid #000000;
 	border-top: medium solid #000000;
 	float: right;
+	height: 600px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	background-color: #ADC5FF;
+	border-right: medium solid #000000;
+}
+#rightPartyInfoSection ul li {
+	list-style-type: none;
 }
 
 #middleSection {
-	padding-left: 30px;
 	padding-right: 10px;
-	margin-right: 300px;
-	margin-left: 280px;
-	height: 800px;
 	border-left: medium solid #000000;
 	border-top: medium solid #000000;
 	border-right: medium solid #000000;
+	height: 600px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	background-color: #ADC5FF;
+	width: 300px;
+	margin-left: 322px;
 }
 
+#middleSectionImg {
+	padding-left: 30px;
+
+}
+#middleSection h3 {
+	text-align: center;
+
+}
 
 #signUpSection ul {
 	text-align: left;
 	list-style-type: none;
 }
 
-
 #mainBox ul {
 	list-style-type: none;
 	display: inline;
 }
+
 #navigationBottom {
 	clear: both;
-
 }
+
 #navigationBottom ul {
 	display: inline;
 	
 }
+
 #aboutUsNav {
 	float: left;
 	display: inline;
 	clear: both;
 }
+
 #insideNav ul li {
 	list-style-type: none;
 }
+
 #aboutUsBox {
-	clear: left;
+	margin-left: 340px;
+
 }
-
-
 	
 a:visited { color: #7C0000; }
-a:hover { color: #C7C7C7; }
+
+a:hover { color: #C7C7C7;
+          text-decoration: none; }
+		  
+a:link { text-decoration: none; }
+
+a:active {
+	color: aqua; }
+
 table {
 	font-size: x-large;
 	letter-spacing: 1px;
 }
+
 #whatIsBox {
-	clear: left;
+	margin-left: 340px;
+
 }
-#whoIsBox {
-	clear: left;
-}
+
 #partyGuildelinesBox {
 	clear: left;
+}
+
+#announcements {
+	margin-left: 340px;
+}
+
+#signUpPage {
+	margin-left: 340px;
+}
+
+#costumeTableBox {
+	text-align: left;
+}
+
+#costumePage {
+	margin-left: 340px;
+}
+#costumesLeftPartySection {
+	width: 260px;
+	float: left;
+	border: medium solid #000000;
+	text-align: left;
+	padding-left: 40px;
+	height: 600px;
+	border-radius: 40px;
+	background-color: #ADC5FF;
+}
+#costumesLeftPartySection ul li {
+	list-style-type: none;
+}
+#aboutUsLeftPartySection {
+	width: 260px;
+	float: left;
+	border: medium solid #000000;
+	text-align: left;
+	padding-left: 40px;
+	height: 600px;
+	border-radius: 40px;
+	background-color: #ADC5FF;
+
+}
+#aboutUsLeftPartySection ul li {
+	list-style-type: none;
+
+}
+#leftSignUpSection img {
+	margin-left: -15px;
+}
+#aboutUsLeftPartySection img  {
+	margin-left: -15px;
+}
+#costumesLeftPartySection img {
+	margin-left: -15px;
+}
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+img {
+	border-radius: 20px;
 }
