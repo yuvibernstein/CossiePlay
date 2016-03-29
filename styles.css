@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+body {
+	background-color: #002B8F;
+}
+
+#container {
+	width: 900px;
+	margin: 10px auto;
+	background-color: #fff;
+	padding: 0 40px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#topBox {
+	width: 900px;
+	margin: 20px auto;
+	padding-top: 20px;        
+			 }
+
+		 
+#navigationTop {
+	text-align: center;
+	border-bottom: medium solid #000000;
+	border-top-color: #03E0F3;
+	}
+
+
+#navigationTop ul li {
+	display: inline;
+	margin-top: 0;
+	margin-right: 35px;
+	margin-left: 0;
+	margin-bottom: 50px;
+	border-right: thin groove #000000;
+	border-left: thin groove #000000;
+	padding-left: 20px;
+	padding-right: 20px;
+	letter-spacing: 1px;
+}
+
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	text-align: left;
+}
+
+#leftPartySection {
+	
+	width: 260px;
+	height: 800px;
+	float: left;
+	border-right: medium solid #000000;
+	border-top: medium solid #000000;
+	text-align: left;
+	
+}
+
+#rightSignUpSection {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 800px;
+	width: 260px;
+	border-left: medium solid #000000;
+	border-top: medium solid #000000;
+	float: right;
+}
+
+#middleSection {
+	padding-left: 30px;
+	padding-right: 10px;
+	margin-right: 300px;
+	margin-left: 280px;
+	height: 800px;
+	border-left: medium solid #000000;
+	border-top: medium solid #000000;
+	border-right: medium solid #000000;
+}
+
+
+#signUpSection ul {
+	text-align: left;
+	list-style-type: none;
+}
+
+
+#mainBox ul {
+	list-style-type: none;
+	display: inline;
+}
+#navigationBottom {
+	clear: both;
+
+}
+#navigationBottom ul {
+	display: inline;
+	
+}
+#aboutUsNav {
+	float: left;
+	display: inline;
+	clear: both;
+}
+#insideNav ul li {
+	list-style-type: none;
+}
+#aboutUsBox {
+	clear: left;
+}
+
+
+	
+a:visited { color: #7C0000; }
+a:hover { color: #C7C7C7; }
+table {
+	font-size: x-large;
+	letter-spacing: 1px;
+}
+#whatIsBox {
+	clear: left;
+}
+#whoIsBox {
+	clear: left;
+}
+#partyGuildelinesBox {
+	clear: left;
+}
