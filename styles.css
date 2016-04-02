@@ -2,12 +2,13 @@
 
 body {
 	background-color: #002B8F;
+	margin-left: 0px;
 }
 
 h1 {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-style: italic;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: left;
 	margin-left: 40px;
 }
@@ -17,6 +18,7 @@ h2 {
 	font-weight: bolder;
 	font-size: xx-large;
 }
+
 
 p {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -150,7 +152,25 @@ a:active {
 table {
 	font-size: x-large;
 	letter-spacing: 1px;
+	font-weight: bold;
+	margin-top: -20px;
 }
+td {
+	border: thick outset;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: medium;
+}
+th {
+	border: 7px outset;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bolder;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: x-large;
+}
+
+
+
 
 #whatIsBox {
 	margin-left: 340px;
@@ -214,9 +234,27 @@ img {
 	border-radius: 20px;
 }
 #costumesImg {
-	margin-left: 425px;
-	padding-top: 15px;
+	margin-left: 340px;
 }
 #whatIsBox img {
 	float: right;
+}
+em {
+	font-size: large;
+}
+#aboutUsBox img {
+	float: left;
+	padding-right: 15px;
+}
+#partyGuidelines {
+	font-size: small;
+}
+#partyGuidelines img {
+	margin-left: 20px;
+
+}
+#container #homePageHeader {
+	padding-left: 40px;
+
+
 }
