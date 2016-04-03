@@ -39,8 +39,7 @@ p {
 	margin: 20px auto;
 	padding-top: 20px;        
 }
-
-		 
+	 
 #navigationTop {
 	text-align: center;
 	border-bottom: medium solid #000000;
@@ -156,12 +155,12 @@ table {
 	margin-top: -20px;
 }
 td {
-	border: thick outset;
+	border: medium double #002B8F;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	font-size: medium;
 }
 th {
-	border: 7px outset;
+	border: thick double #002B8F;
 	text-transform: uppercase;
 	text-align: left;
 	font-weight: bolder;
@@ -169,12 +168,8 @@ th {
 	font-size: x-large;
 }
 
-
-
-
 #whatIsBox {
 	margin-left: 340px;
-
 }
 
 #partyGuildelinesBox {
@@ -255,6 +250,4 @@ em {
 }
 #container #homePageHeader {
 	padding-left: 40px;
-
-
 }
